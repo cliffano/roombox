@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "abcnode": "http://github.com/cliffano/abcnode/tarball/master",
+    "async": "~0.2.9",
     "roomba": "~0.0.1"
   },
   "devDependencies": {
