@@ -18,7 +18,9 @@ buster.testCase('abc - convert', {
     var song = abc.convert(data.join('\n'));
     assert.equals(song.title, 'Hey Jude');
     assert.equals(song.by, 'The Beatles');
-    assert.equals(song.notes, [67, 64, 64, 64, 64, 32, 67, 32, 69, 32, 62, 64, 62, 32, 64, 32, 65, 64, 72, 64, 72, 32, 71, 32, 67, 32, 69, 32, 67, 16, 65, 16, 64, 64, 67, 32, 69, 32, 69, 32, 69, 32, 74, 16, 72, 32, 71, 16, 72, 16, 69, 32, 67, 64, 60, 32, 62, 32, 64, 32, 69, 32]);
+    assert.equals(song.notes.length, 31);
+    assert.equals(song.notes[0], [67, 64]);
+    assert.equals(song.notes[song.notes.length - 1], [69, 32]);
   },
   'should sanitise invalid ABC 1.6 data': function () {
     var data = [
@@ -35,7 +37,9 @@ buster.testCase('abc - convert', {
     var song = abc.convert(data.join('\n'));
     assert.equals(song.title, 'Hey Jude');
     assert.equals(song.by, 'The Beatles');
-    assert.equals(song.notes, [67, 64, 64, 64, 64, 32, 67, 32, 69, 32, 62, 64, 62, 32, 64, 32, 65, 64, 72, 64, 72, 32, 71, 32, 67, 32, 69, 32, 67, 16, 65, 16, 64, 64, 67, 32, 69, 32, 69, 32, 69, 32, 74, 16, 72, 32, 71, 16, 72, 16, 69, 32, 67, 64, 60, 32, 62, 32, 64, 32, 69, 32]);
+    assert.equals(song.notes.length, 31);
+    assert.equals(song.notes[0], [67, 64]);
+    assert.equals(song.notes[song.notes.length - 1], [69, 32]);
   },
   'should throw error when there is invalid syntax': function () {
     var data = [
