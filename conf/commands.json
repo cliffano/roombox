@@ -1,0 +1,14 @@
+{
+  "commands": {
+    "start": {
+      "desc": "Start Roombox",
+      "options": [
+        { "arg": "-p, --path <path>", "desc": "Serial port path  | defaut: /dev/tty.roomba" },
+        { "arg": "-b, --baud-rate <baudRate>", "desc": "Baud rate | default: 57600" }
+      ],
+      "examples": [
+        "roombox start --path /dev/tty.FireFly-9E56-SPP --baud-rate 57600"
+      ]
+    }
+  }
+}
