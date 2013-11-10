@@ -13,11 +13,4 @@ Roombox is a Roomba boombox.
 
 This is handy when you want to turn your [Roomba vacuum cleaner](http://en.wikipedia.org/wiki/Roomba) into a boombox.
 
-Installation
-------------
-
-    npm install -g roombox 
-
-Usage
------
-
+An entry to node.js knockout 2013 [http://team-n.2013.nodeknockout.com/](http://team-n.2013.nodeknockout.com/) .
