@@ -35,7 +35,7 @@ buster.testCase('playlist - load', {
     assert.equals(playlist.songs.length, 0);
   },
   'should log error message when converter does not exist': function () {
-    this.mockConsole.expects('error').withExactArgs('Unable to convert %s', 'somesong.xyz');
+    this.mockConsole.expects('error').withExactArgs('WARN | Unable to convert %s', 'somesong.xyz');
     this.mockFs.expects('readdirSync').withExactArgs('somedir').returns(['somesong.xyz']);
     this.mockFs.expects('readFileSync').withExactArgs('somedir/somesong.xyz').returns('somecontent');
     var playlist = new Playlist();
