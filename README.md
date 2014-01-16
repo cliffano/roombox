@@ -12,21 +12,30 @@ Roombox
 
 Roombox is a Roomba boombox.
 
-This is handy when you want to turn your [Roomba vacuum cleaner](http://en.wikipedia.org/wiki/Roomba) into a boombox.
+This is handy when you want to play some music on a [Roomba vacuum cleaner](http://en.wikipedia.org/wiki/Roomba), turning it into a boombox. Please note that Roomba has a low-quality speaker with a limited pitch range.
 
-An entry to node.js knockout 2013 [http://team-n.2013.nodeknockout.com/](http://team-n.2013.nodeknockout.com/) .
+Roombox is an entry to node.js knockout 2013 [http://team-n.2013.nodeknockout.com/](http://team-n.2013.nodeknockout.com/) .
 
 Installation
 ------------
 
-    npm install -g repoman
+    npm install -g roombox
 
 Usage
 -----
 
-TODO
+Pair a laptop with the Roomba via BlueTooth.
+
+Start Roombox:
+
+    roombox start --path /dev/tty.FireFly-9E56-SPP --baud-rate 57600
+
+A menu prompt will be displayed on the screen, simply select the track number of the song that you want to play.
+
+To add more songs: search for ABC notation of the songs that you want, then place them under data directory on Roombox installation directory (`which roombox`).
 
 Colophon
 --------
 
-TODO
+* [Roomba Vacuum Cleaner Playing Rocky Theme Song - Roombox Demo - Team N - nko2013](http://www.youtube.com/watch?v=C20hhCIIHUs)
+* [Roombox – Node Knockout 2013](http://blog.cliffano.com/2013/11/25/roombox-node-knockout-2013/)
