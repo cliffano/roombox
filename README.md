@@ -33,7 +33,7 @@ Start Roombox:
 
 A menu prompt will be displayed on the screen, simply select the track number of the song that you want to play.
 
-To add more songs: search for ABC notation of the songs that you want, then place them under data directory on Roombox installation directory (`which roombox`).
+To add more songs: search for [ABC notation](https://www.google.com.au/search?q=abc+notation) of the songs that you want to play, then place them under data directory of Roombox installation directory (`which roombox`).
 
 Colophon
 --------
