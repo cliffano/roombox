@@ -24,7 +24,8 @@ Installation
 Usage
 -----
 
-Pair a laptop with the Roomba via BlueTooth.
+Pair your computer with Roomba.
+I used a [RooTooth](https://www.google.com.au/search?q=rootooth) [paired to my MacBook Air via bluetooth](http://gicl.cs.drexel.edu/index.php/Connecting_Roomba_to_Your_Computer).
 
 Start Roombox:
 
