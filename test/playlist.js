@@ -63,3 +63,17 @@ buster.testCase('playlist - getSong', {
     assert.equals(song, undefined);
   }
 });
+
+buster.testCase('playlist - displaySongs', {
+  setUp: function () {
+    this.mockConsole = this.mock(console);
+    this.playlist = new Playlist();
+    this.playlist.songs = [
+      { title: 'sometitle', by: 'someartist', notes: [[60, 64], [30, 64]] }
+    ];
+  },
+  'should log all songs in the playlist': function () {
+    this.mockConsole.expects('log').once().withArgs('%d - %s', 1, 'sometitle');
+    this.playlist.displaySongs();
+  }
+});
