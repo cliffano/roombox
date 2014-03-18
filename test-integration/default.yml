@@ -1,4 +1,7 @@
+- params:
+    roombox: ../../../../../bin/roombox
+
 - description: Command help should display help information
-  command: ../../../../../bin/roombox --help
+  command: '{roombox} --help'
   exitcode: 0
   output: 'Usage: roombox'
