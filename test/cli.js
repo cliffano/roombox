@@ -31,7 +31,7 @@ buster.testCase('cli - start', {
     this.mockPrompt.expects('get').once().withArgs(['Select track']).callsArgWith(1, null, { 'Select track': 123 });
     this.mockPrompt.expects('get').once().withArgs(['Select track']).callsArgWith(1, null, { 'Select track': 'e' });
     this.mockProcess.expects('exit').once().withExactArgs(0);
-    this.stub(Roombox.prototype, 'play', function (answer, opts, cb) {
+    this.stub(Roombox.prototype, 'play', function (answer, cb) {
       cb();
     });
     this.stub(Roombox.prototype, 'start', function (opts, cb) {

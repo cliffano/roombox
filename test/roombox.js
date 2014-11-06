@@ -73,6 +73,7 @@ buster.testCase('roombox - play', {
     });
 
     this.roombox = new Roombox();
+    this.timeout = 10000;
   },
   'should convert song into segments and send them to bot': function (done) {
     this.mockConsole.expects('log').once().withExactArgs('Preparing track %d: %s - %s', 888, 'some title', 'some singer');
@@ -86,7 +87,7 @@ buster.testCase('roombox - play', {
       }
     };
 
-    this.roombox.play(888, { interval: 1 }, function () {
+    this.roombox.play(888, function () {
       assert.equals(self.botData[0].cmd, 'SONG');
       assert.equals(self.botData[1].cmd, 'PLAY');
       done();
