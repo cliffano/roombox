@@ -38,5 +38,12 @@ To add more songs: search for [ABC notation](https://www.google.com.au/search?q=
 Colophon
 --------
 
+[Developer's Guide](http://cliffano.github.io/developers_guide.html#nodejs)
+
+Videos:
+
 * [Roomba Vacuum Cleaner Playing Rocky Theme Song - Roombox Demo - Team N - nko2013](http://www.youtube.com/watch?v=C20hhCIIHUs)
+
+Articles:
+
 * [Roombox – Node Knockout 2013](http://blog.cliffano.com/2013/11/25/roombox-node-knockout-2013/)
