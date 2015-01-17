@@ -33,8 +33,8 @@
   "dependencies": {
     "abcnode": "http://github.com/cliffano/abcnode/tarball/master",
     "async": "~0.9.0",
-    "bagofcli": "~0.2.0",
-    "prompt": "~0.2.13",
+    "bagofcli": "~0.2.1",
+    "prompt": "~0.2.14",
     "roomba": "~0.0.1"
   },
   "devDependencies": {
