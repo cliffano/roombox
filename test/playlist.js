@@ -50,6 +50,7 @@ buster.testCase('playlist - getSong', {
     this.playlist.songs = [
       { title: 'sometitle', by: 'someartist', notes: [[60, 64], [30, 64]] }
     ];
+    this.mock({});
   },
   'should return song when song exists': function () {
     var song = this.playlist.getSong(1);

@@ -4,6 +4,9 @@ var buster = require('buster-node'),
   assert = referee.assert;
 
 buster.testCase('abc - convert', {
+  setUp: function () {
+    this.mock({});
+  },
   'should convert abc notation to Roomba song data': function () {
     var data = [
       'X:1',

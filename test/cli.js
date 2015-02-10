@@ -7,6 +7,9 @@ var bag = require('bagofcli'),
   assert = referee.assert;
 
 buster.testCase('cli - exec', {
+  setUp: function () {
+    this.mock({});
+  },
   'should contain commands with actions': function (done) {
     var mockCommand = function (base, actions) {
       assert.defined(base);
