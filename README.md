@@ -1,7 +1,7 @@
 <img align="right" src="https://raw.github.com/cliffano/roombox/master/avatar.jpg" alt="Avatar"/>
 
-[![Build Status](https://secure.travis-ci.org/cliffano/roombox.png?branch=master)](http://travis-ci.org/cliffano/roombox)
-[![Dependencies Status](https://david-dm.org/cliffano/roombox.png)](http://david-dm.org/cliffano/roombox)
+[![Build Status](https://img.shields.io/travis/cliffano/roombox.svg)](http://travis-ci.org/cliffano/roombox)
+[![Dependencies Status](https://img.shields.io/david/cliffano/roombox.svg)](http://david-dm.org/cliffano/roombox)
 [![Coverage Status](https://coveralls.io/repos/cliffano/roombox/badge.png?branch=master)](https://coveralls.io/r/cliffano/roombox?branch=master)
 [![Published Version](https://badge.fury.io/js/roombox.png)](http://badge.fury.io/js/roombox)
 <br/>
