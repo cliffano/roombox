@@ -2,8 +2,8 @@
 
 [![Build Status](https://img.shields.io/travis/cliffano/roombox.svg)](http://travis-ci.org/cliffano/roombox)
 [![Dependencies Status](https://img.shields.io/david/cliffano/roombox.svg)](http://david-dm.org/cliffano/roombox)
-[![Coverage Status](https://coveralls.io/repos/cliffano/roombox/badge.png?branch=master)](https://coveralls.io/r/cliffano/roombox?branch=master)
-[![Published Version](https://badge.fury.io/js/roombox.png)](http://badge.fury.io/js/roombox)
+[![Coverage Status](https://img.shields.io/coveralls/cliffano/roombox.svg)](https://coveralls.io/r/cliffano/roombox?branch=master)
+[![Published Version](https://img.shields.io/npm/v/roombox.svg)](http://www.npmjs.com/package/roombox)
 <br/>
 [![npm Badge](https://nodei.co/npm/roombox.png)](http://npmjs.org/package/roombox)
 
