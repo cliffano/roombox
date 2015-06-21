@@ -42,11 +42,11 @@ Colophon
 
 Build reports:
 
-* [Code complexity report](http://cliffano.github.io/roombox/bob/complexity/plato/index.html)
-* [Unit tests report](http://cliffano.github.io/roombox/bob/test/buster.out)
-* [Test coverage report](http://cliffano.github.io/roombox/bob/coverage/buster-istanbul/lcov-report/lib/index.html)
-* [Integration tests report](http://cliffano.github.io/roombox/bob/test-integration/cmdt.out)
-* [API Documentation](http://cliffano.github.io/roombox/bob/doc/dox-foundation/index.html)
+* [Code complexity report](http://cliffano.github.io/roombox/complexity/plato/index.html)
+* [Unit tests report](http://cliffano.github.io/roombox/test/buster.out)
+* [Test coverage report](http://cliffano.github.io/roombox/coverage/buster-istanbul/lcov-report/lib/index.html)
+* [Integration tests report](http://cliffano.github.io/roombox/test-integration/cmdt.out)
+* [API Documentation](http://cliffano.github.io/roombox/doc/dox-foundation/index.html)
 
 Videos:
 
