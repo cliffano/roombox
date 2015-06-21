@@ -1,0 +1,4 @@
+[ 'lib/cli.js',
+  'lib/converters/abc.js',
+  'lib/playlist.js',
+  'lib/roombox.js' ]
