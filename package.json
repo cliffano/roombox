@@ -32,14 +32,14 @@
   },
   "dependencies": {
     "abcnode": "http://github.com/cliffano/abcnode/tarball/master",
-    "async": "^1.2.1",
-    "bagofcli": "^0.2.2",
-    "prompt": "^0.2.14",
+    "async": "^2.0.1",
+    "bagofcli": "^0.2.5",
+    "prompt": "^1.0.0",
     "roomba": "^0.0.1"
   },
   "devDependencies": {
     "buster-node": "^0.7.1",
-    "referee": "^1.1.1"
+    "referee": "^1.2.0"
   },
   "scripts": {},
   "engines": {
