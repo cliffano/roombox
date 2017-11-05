@@ -35,7 +35,8 @@
     "async": "^2.4.1",
     "bagofcli": "^1.0.0",
     "prompt": "^1.0.0",
-    "roomba": "^0.0.1"
+    "roomba": "^0.0.1",
+    "serialport": "^1.4.5"
   },
   "devDependencies": {
     "buster-node": "^0.7.1",
@@ -43,7 +44,7 @@
   },
   "scripts": {},
   "engines": {
-    "node": "'>= 4.0.0'"
+    "node": "'>= 8.0.0'"
   },
   "licenses": [
     {
