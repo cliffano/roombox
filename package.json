@@ -36,7 +36,7 @@
     "bagofcli": "^1.0.0",
     "prompt": "^1.0.0",
     "roomba": "^0.0.1",
-    "serialport": "^1.4.5"
+    "serialport": "^6.0.4"
   },
   "devDependencies": {
     "buster-node": "^0.7.1",
