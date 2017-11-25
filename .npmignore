@@ -9,6 +9,7 @@
 avatar.jpg
 node_modules
 npm-debug.log
+package-lock.json
 screenshots
 test
 test-integration

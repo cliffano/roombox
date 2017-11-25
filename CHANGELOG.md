@@ -1,6 +1,8 @@
 ### 0.0.3-pre
 * Replace abcnode dep with abcnode-pakkunbot
-* Fix baudRate opt name and type to work with serialport >=6
+* Fix serial port opts to work with >= v6
+* Set min node engine to >= v8.0.0
+* Fix baudRate opt name to work with serialport >=6
 
 ### 0.0.2
 * Set min node engine to >= v0.10.0
